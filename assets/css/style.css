@@ -1,0 +1,35 @@
+html{
+	background-color:#eee;
+}
+.col-md-4{
+	width:250px;
+	text-align: center;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.col-md-8{
+	background-color:white;
+	height: 600px;
+	width: 500px;
+}
+p{
+	padding-bottom: 30px;
+	padding-top:30px;
+}
+.col-md-9{
+	margin-left:10px;
+}
+h3{
+	border:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.panel-heading{
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.page-header{
+	color:teal;
+}

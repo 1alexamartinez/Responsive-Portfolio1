@@ -1,0 +1,107 @@
+html{
+	background-color: #eee;
+}
+.wrapper{
+	width:980px;
+}
+.pageHeader1{
+	font-size: 14px;
+	background-color:teal;
+	margin-left:30px;
+	color: black;
+
+}
+.pageHeader2{
+	float:right;
+	background-color:teal;
+	font-size:14px;
+	padding: 10px;
+	margin-right:auto;
+	text-align: center;
+
+}
+.content{
+	float:left;
+	background-color:white;
+	width:600px;
+	margin-left:30px;
+	font-size: 20px;
+}
+.connect{
+	float:right;
+	background-color:white;
+	border: solid;
+    border-color: black;
+    padding: 20px;
+    margin-top:30px;
+    margin-right:auto;
+    margin-left:0px;
+    z-index:1;
+}
+.buttons{
+	margin:5px;
+	font-size:20px;
+	color: black;
+}
+h5{
+	font:bold;
+	font-size:18px;
+	text-align:center;
+	padding:0px;
+	color: black;
+}
+hr{
+	margin-bottom:10px;
+	margin-top:0px;
+}
+h2{
+	margin-bottom:0px;
+	color: black;
+}
+p{
+	padding-right:10px;
+	padding-left:10px;
+}
+img{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+@media screen and (max-width:980px){
+	.wrapper{
+		width:100%;
+	}
+	.content{
+		width:70%;
+	}
+	.connect{
+		width:30%;
+	}
+@media screen and (max-width:768px){
+	.wrapper {
+		width:100%;
+	}
+	.content{
+		width:70%;
+	}
+	.connect{
+		width:30%;
+	}
+
+
+
+@media screen and (max-width:640px){
+	.wrapper{
+		width:100%;
+	}
+	.content{
+		width:70%;
+	}
+	.connect{
+		width:70%;
+		margin:center;
+	}
+	.pageHeader2{
+		width: 100%
+}
